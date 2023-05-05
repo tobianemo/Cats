@@ -1,0 +1,180 @@
+/* CSS Document */
+
+/*		Colors
+#5c3317 - Dark Brown
+#804720 - Brown
+#f7a26c - Tangarine
+#ccaf9d - Desert Sand
+#e76a1a - Spanish Orange
+*/
+
+/*		Fonts
+font-family: 'Macondo', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ruslan Display', cursive;
+font-family: 'Source Serif Pro', serif;
+*/
+
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #5c3317;
+}
+
+table {
+	margin: 0 auto;
+	text-align: center;
+	width: 80%;
+	background-color: #804720;
+	border: 5px double #f7a26c;
+}
+
+#header img {
+	border-top: 2px solid #fff;
+}
+
+#header h1 {
+	font-family: 'Ruslan Display', cursive;
+	margin-right: 150px;
+	font-size: 4em;
+	margin-top: 12.5px;
+	color: #f7a26c;
+}
+
+#header h2 {
+	font-family: 'Macondo', cursive;
+	margin-left: 145px;
+	margin-top: -20px;
+	color: #ccaf9d;
+}
+
+main {
+	padding: 5%;
+}
+
+blockquote {
+	margin-right: 300px;
+	font-size: 3em;
+	padding-bottom: 2%;
+	font-family: 'Ruslan Display', cursive;
+	color: #5c3317;
+}
+
+main p, h3, ol {
+	text-align: left;
+	width: 40%;
+	font-family: 'Source Serif Pro', serif;
+}
+
+main p {
+	color: #ccaf9d;
+	padding: 1%;
+}
+
+main h3 {
+	padding: 1%;
+	font-family: 'Macondo', cursive;
+	color: #e76a1a;
+}
+
+main ol {
+	margin-left: 50px;
+	color: #ccaf9d;
+}
+
+main img {
+	width: 50%;
+	float: right;
+	border: 7.5px ridge #f7a26c;
+}
+
+form {
+	font-size: 2em;
+	padding: 2%;
+	text-align: left;
+	width: 30%;
+	font-family: 'Macondo', cursive;
+	color: #ccaf9d;
+}
+
+#fname, #lname, #st-address, #city, #state, #zip, #email {
+	padding-top: 25px;
+	padding-right: 300px;
+	border-radius: 10px 10px;
+	border: 5px double #e76a1a;
+}
+
+.btn {
+	width: 100px;
+	height: 50px;
+	margin-top: 20px;
+	font-size: 0.5em;
+	border-radius: 10px 10px;
+	border: 5px double #e76a1a;
+	font-family: 'Ruslan Display', cursive;
+}
+
+.btn:last-child {
+	margin-left: 120px;
+}
+
+.btn:hover {
+	border: 5px double #fff;
+	color: #fff;
+	background-color: #e76a1a;
+}
+
+footer {
+	text-align: center;
+	clear: both;
+}
+
+.fnav {
+	margin: 0 auto;
+	padding-top: 5%;
+}
+
+.fnav ul {
+	list-style-type: none;
+}
+
+.fnav ul li {
+	display: inline-block;
+	padding: 1%;
+}
+
+.fnav ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Source Serif Pro', serif;
+}
+
+.fnav ul li a:hover {
+	color: #e76a1a;
+	font-family: 'Macondo', cursive;
+}
+
+footer h4 {
+	border-top: 2.5px solid #fff;
+	padding-top: 2%;
+	color: #f7a26c;
+	font-family: 'Source Serif Pro', serif;
+}
+
+footer p {
+	color: #ccaf9d;
+	padding-bottom: 2%;
+	font-family: 'Source Serif Pro', serif;
+}
+
+
+
+
+
+
+
+
